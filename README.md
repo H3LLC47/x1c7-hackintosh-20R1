@@ -7,7 +7,6 @@
 
 <img align="right" src="https://github.com/huyhoang8398/x1c7-hackintosh-20r1/blob/master/docs/Images/preview.png" alt="x1c7 thinkpad hackintosh Bigsur" width="300">
 
-### Follow my website [dohoang.me](https://dohoang.me/)
 
 #### READ THE ENTIRE README.MD BEFORE YOU START.
 
@@ -17,8 +16,6 @@ This template is Forked from Tyler Nguyen's repo x1c6-hackintosh
 
 ### Should you find an error, or improve anything, be it in the config itself or in the my documentation, please consider opening an issue or a pull request to contribute.
 
-`I AM A ONE MAN TEAM, AND A FULL TIME STUDENT. SO, I MIGHT NOT BE ABLE TO RESPOND OR HELP YOU IN A TIMELY MANNER. BUT, I PROMISE I WILL GET TO YOU EVENTUALLY. PLEASE UNDERSTAND.`
-`Lastly, if my work here helped you. Please consider donating, it would mean a lot to me.`
 
 <details>
 <summary><strong> SUMMARY </strong></summary>
@@ -126,8 +123,8 @@ This template is Forked from Tyler Nguyen's repo x1c6-hackintosh
 
 | Category  | Component                            | Remarks |
 | --------- | ------------------------------------ | ------------ |
-| CPU       | [i5-10210U](https://ark.intel.com/content/www/us/en/ark/products/195436/intel-core-i5-10210u-processor-6m-cache-up-to-4-20-ghz.html) | - |
-| SSD       |  WDC PC SN730 SDBQNTY-512G-1001        | - |
+| CPU       | i7-10710U | - |
+| SSD       |  Micron 512GB NVMe SSD        | - |
 | Display   | 14.0" (355mm) FHD (1920x1080)   | -|
 | WWAN      | None | Unless needed in other OSes, disable at BIOS to save power
 | Ports       | 2x USB 3.1 Gen 1 (Right USB Always On) |
@@ -136,7 +133,7 @@ This template is Forked from Tyler Nguyen's repo x1c6-hackintosh
 | Ethernet    | via ThinkPad Ethernet Extension Adapter Gen 2: I219-LM Ethernet (vPro) |
 | WLAN + BT    | Intel Wireless-AC 9560, Wi-Fi 2x2 802.11ac + Bluetooth 5.0 |
 | WWAN(optional) | Nothing else supported, no adapters, nothing. Locked by BIOS |
-| Camera       | IR and HD720p camera with ThinkShutte. Chicony manufacturer |
+| Camera       | IR and HD720p camera with ThinkShutter. Chicony manufacturer |
 | Audio       | Realtek ALC3286 codec <br> Linux: ``Realtek ALC285``, layout 11, 21, 31 ; [@acidanthera/AppleALC > Supported codecs [Github]](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) |
 | Fingerprint reader | ✔️ |
 | NFC (optional) | ✔️ |
@@ -157,9 +154,6 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 - Updating
 </details> 
 
-> ## CONTACT
-
-https://dohoang.me
 
 > ## SUPPORT
 
@@ -170,9 +164,6 @@ https://dohoang.me
 - [@zhen-zen](https://github.com/zhen-zen) for YogaSMC
 
 The greatest thank you and appreciation to the [Acidanthera](https://github.com/acidanthera) team.
-
-And to everyone else who supports and uses my project.
-
-Please let me know if I missed you.
+https://github.com/aidanchandra/x1c7-hackintosh Project and https://github.com/huyhoang8398/x1c7-hackintosh-20R1 (That I forked)
 
 </details> 
