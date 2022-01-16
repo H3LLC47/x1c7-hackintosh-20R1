@@ -51,7 +51,7 @@ This template is Forked from Tyler Nguyen's repo x1c6-hackintosh
 > ### Input/ Output
 | Feature                              | Status | Dependency          | Remarks                      |
 | :----------------------------------- | ------ | ------------------- | ---------------------------- |
-| WiFi                                       | ✅ | AirportIltwm  | -       |
+| WiFi                                       | ✅ | AirportIltwm  | See Wiki for WiFi fix       |
 | Bluetooth                                  | ✅ | AirportIltwm, IntelBluetoothFirmware.kext and IntelBluetoothInjector.kext | ⚠️ audio input (e.g. of headset) is not working 
 | Ethernet                                   | ✅ | `IntelMausi.kext` | -                  |
 | HDMI hotplug                               | ✅ |- | - |
@@ -74,8 +74,8 @@ This template is Forked from Tyler Nguyen's repo x1c6-hackintosh
 | :----------------------------------- | ------ | ------------------- | ---------------------------- |
 | iCloud, iMessage, FaceTime | ✅ | Whitelisted Apple ID, Valid SMBIOS   | See [dortania /OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)  |
 | Continuty              | ❌    | Not yet test | - |
-| AirDrop                | ❌     | Not yet test |- |
-| Sidecar                | ❌     | Not yet test ( donate me to buy an Ipad | - |
+| AirDrop                | ❌     | Tested- Not working in current config |- |
+| Sidecar                | ❌     | Tested - Not working in current config | - |
 | FileVault              | ✅ | as configured in `config.plsit` per [Dortania's Post-Install](https://dortania.github.io/OpenCore-Post-Install/universal/security/filevault.html)|  |
 | Time Machine           | ✅     | Native | TimeMachine only backups your Macintosh partition. Manually backup your EFI partition using another method.  |
 
@@ -131,7 +131,7 @@ This template is Forked from Tyler Nguyen's repo x1c6-hackintosh
 |                  | 2x USB 3.1 Type-C Gen 2 / Thunderbolt 3 (Power Delivery and DisplayPort) [Max 5120x2880 @60Hz] |
 |                  | HDMI 1.4b (Max 4096x2160 @24Hz) |                 |
 | Ethernet    | via ThinkPad Ethernet Extension Adapter Gen 2: I219-LM Ethernet (vPro) |
-| WLAN + BT    | Intel Wireless-AC 9560, Wi-Fi 2x2 802.11ac + Bluetooth 5.0 |
+| WLAN + BT    | Intel Wireless-AC 9560, Wi-Fi 2x2 802.11ac + Bluetooth 5.0 | See Wiki for WiFi fix
 | WWAN(optional) | Nothing else supported, no adapters, nothing. Locked by BIOS |
 | Camera       | IR and HD720p camera with ThinkShutter. Chicony manufacturer |
 | Audio       | Realtek ALC3286 codec <br> Linux: ``Realtek ALC285``, layout 11, 21, 31 ; [@acidanthera/AppleALC > Supported codecs [Github]](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) |
