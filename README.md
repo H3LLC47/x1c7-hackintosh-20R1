@@ -73,9 +73,9 @@ This template is Forked from Tyler Nguyen's repo x1c6-hackintosh
 | Feature                              | Status | Dependency          | Remarks                      |
 | :----------------------------------- | ------ | ------------------- | ---------------------------- |
 | iCloud, iMessage, FaceTime | ✅ | Whitelisted Apple ID, Valid SMBIOS   | See [dortania /OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)  |
-| Continuty              | ❌    | Tested - Not working in current config | - |
-| AirDrop                | ❌     | Tested - Not working in current config |- |
-| Sidecar                | ❌     | Tested - Not working in current config | - |
+| Continuty              | ❌    | Tested - Not working in current config | Tested with iPad Air 2, iPad 7th Gen, iPad Air 4 |
+| AirDrop                | ❌     | Tested - Not working in current config | Tested with iPad Air 2, iPad 7th Gen, iPad Air 4 |
+| Sidecar                | ❌     | Tested - Not working in current config | Tested with iPad Air 2, iPad 7th Gen, iPad Air 4 |
 | FileVault              | ✅ | as configured in `config.plsit` per [Dortania's Post-Install](https://dortania.github.io/OpenCore-Post-Install/universal/security/filevault.html)|  |
 | Time Machine           | ✅     | Native | TimeMachine only backups your Macintosh partition. Manually backup your EFI partition using another method.  |
 
